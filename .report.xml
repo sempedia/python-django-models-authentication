@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="tests.UsersTestCase-20230205220711" tests="10" file="tests.py" time="0.036" timestamp="2023-02-05T22:07:11" failures="1" errors="0" skipped="0">
-		<testcase classname="tests.UsersTestCase" name="test_task10_make_migrations" time="0.012" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="179">
+	<testsuite name="tests.UsersTestCase-20230205233310" tests="10" file="tests.py" time="0.062" timestamp="2023-02-05T23:33:10" failures="1" errors="0" skipped="0">
+		<testcase classname="tests.UsersTestCase" name="test_task10_make_migrations" time="0.016" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="179">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task1_createapp" time="0.002" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="7">
+		<testcase classname="tests.UsersTestCase" name="test_task1_createapp" time="0.016" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="7">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task2_add_settings" time="0.001" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="15">
+		<testcase classname="tests.UsersTestCase" name="test_task2_add_settings" time="0.000" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="15">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task3_add_template" time="0.002" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="18">
+		<testcase classname="tests.UsersTestCase" name="test_task3_add_template" time="0.000" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="18">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task4_create_model" time="0.002" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="22">
+		<testcase classname="tests.UsersTestCase" name="test_task4_create_model" time="0.000" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="22">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task6_add_settings" time="0.001" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="73">
+		<testcase classname="tests.UsersTestCase" name="test_task6_add_settings" time="0.000" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="73">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task7_setup_urls" time="0.003" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="78">
+		<testcase classname="tests.UsersTestCase" name="test_task7_setup_urls" time="0.000" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="78">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task8_redirect_routes" time="0.002" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="143">
+		<testcase classname="tests.UsersTestCase" name="test_task8_redirect_routes" time="0.016" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="143">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task9_update_site_templates" time="0.002" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="169">
+		<testcase classname="tests.UsersTestCase" name="test_task9_update_site_templates" time="0.000" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="169">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.UsersTestCase" name="test_task5_register_admin" time="0.009" timestamp="2023-02-05T22:07:11" file="module2\tests.py" line="40">
+		<testcase classname="tests.UsersTestCase" name="test_task5_register_admin" time="0.016" timestamp="2023-02-05T23:33:10" file="module2\tests.py" line="40">
 			<failure type="AssertionError" message="Did you import the `User` model?"><![CDATA[Traceback (most recent call last):
   File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 70, in test_task5_register_admin
     self.assertTrue(import_user_model_found, msg="Did you import the `User` model?")
