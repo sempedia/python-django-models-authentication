@@ -1,106 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="tests.PostTestCase-20230205234912" tests="10" file="tests.py" time="0.047" timestamp="2023-02-05T23:49:13" failures="9" errors="0" skipped="0">
-		<testcase classname="tests.PostTestCase" name="test_task10_make_migrations" time="0.016" timestamp="2023-02-05T23:49:12" file="module3\tests.py" line="235">
+	<testsuite name="tests.PostTestCase-20230206012408" tests="10" file="tests.py" time="0.031" timestamp="2023-02-06T01:24:08" failures="0" errors="0" skipped="0">
+		<testcase classname="tests.PostTestCase" name="test_task10_make_migrations" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="235">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task1_post_model_exists" time="0.000" timestamp="2023-02-05T23:49:12" file="module3\tests.py" line="111">
-			<failure type="AssertionError" message="Did you create the `BlogPost` class?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 115, in test_task1_post_model_exists
-    self.assertTrue(self.class_found, msg="Did you create the `BlogPost` class?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you create the `BlogPost` class?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task1_post_model_exists" time="0.016" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="111">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task2_author_exists" time="0.000" timestamp="2023-02-05T23:49:12" file="module3\tests.py" line="120">
-			<failure type="AssertionError" message="Did you import `django.conf`'s `settings`"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 127, in test_task2_author_exists
-    self.assertTrue(self.settings_import_found, msg="Did you import `django.conf`'s `settings`")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you import `django.conf`'s `settings`
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task2_author_exists" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="120">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task3_body_exists" time="0.000" timestamp="2023-02-05T23:49:12" file="module3\tests.py" line="133">
-			<failure type="AssertionError" message="Did you add the `body` field?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 137, in test_task3_body_exists
-    self.assertTrue(self.body_field_found, msg="Did you add the `body` field?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you add the `body` field?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task3_body_exists" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="133">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task4_postdate_exists" time="0.000" timestamp="2023-02-05T23:49:12" file="module3\tests.py" line="139">
-			<failure type="AssertionError" message="Did you add the `postdate` field and parameters?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 141, in test_task4_postdate_exists
-    self.assertTrue(self.postdate_field_found, msg="Did you add the `postdate` field and parameters?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you add the `postdate` field and parameters?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task4_postdate_exists" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="139">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task5_str_exists" time="0.016" timestamp="2023-02-05T23:49:13" file="module3\tests.py" line="145">
-			<failure type="AssertionError" message="Did you implement the `__str__` method in the `post` model class?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 146, in test_task5_str_exists
-    self.assertTrue(self.str_method_found, msg="Did you implement the `__str__` method in the `post` model class?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you implement the `__str__` method in the `post` model class?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task5_str_exists" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="145">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task6_get_abs_url_exists" time="0.000" timestamp="2023-02-05T23:49:13" file="module3\tests.py" line="148">
-			<failure type="AssertionError" message="Did you implement the `get_absolute_url` method?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 149, in test_task6_get_abs_url_exists
-    self.assertTrue(self.get_abs_url_found, msg="Did you implement the `get_absolute_url` method?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you implement the `get_absolute_url` method?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task6_get_abs_url_exists" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="148">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task7_register_model_in_admin" time="0.000" timestamp="2023-02-05T23:49:13" file="module3\tests.py" line="151">
-			<failure type="AssertionError" message="Did you import `BlogPost`?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 170, in test_task7_register_model_in_admin
-    self.assertTrue(import_BlogPost_found, msg="Did you import `BlogPost`?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you import `BlogPost`?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task7_register_model_in_admin" time="0.016" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="151">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task8_update_views_with_BlogPost" time="0.016" timestamp="2023-02-05T23:49:13" file="module3\tests.py" line="173">
-			<failure type="AssertionError" message="Did you import `BlogPost`?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 203, in test_task8_update_views_with_BlogPost
-    self.assertTrue(import_BlogPost_found, msg="Did you import `BlogPost`?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you import `BlogPost`?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task8_update_views_with_BlogPost" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="173">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
-		<testcase classname="tests.PostTestCase" name="test_task9_update_post_view_with_BlogPost" time="0.000" timestamp="2023-02-05T23:49:13" file="module3\tests.py" line="208">
-			<failure type="AssertionError" message="Did you remove the `try/catch` block?"><![CDATA[Traceback (most recent call last):
-  File "C:\Users\Tibi\python-django-models-authentication\module3\tests.py", line 231, in test_task9_update_post_view_with_BlogPost
-    self.assertTrue(try_catch_found == False, msg="Did you remove the `try/catch` block?")
-  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
-    self.fail(msg or (str(expr) + "is not True"))
-AssertionError: Did you remove the `try/catch` block?
-]]></failure>
+		<testcase classname="tests.PostTestCase" name="test_task9_update_post_view_with_BlogPost" time="0.000" timestamp="2023-02-06T01:24:08" file="module3\tests.py" line="208">
 			<system-out><![CDATA[]]></system-out>
 			<system-err><![CDATA[]]></system-err>
 		</testcase>
