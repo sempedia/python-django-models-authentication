@@ -125,11 +125,9 @@ USE_TZ = True
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-LOGIN_URL = 'login'
 
-LOGIN_REDIRECT_URL = 'index'
 
-AUTH_USER_MODEL = 'users.User'
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
@@ -138,3 +136,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+
+LOGIN_URL = 'login'
+
+LOGIN_REDIRECT_URL = 'index'
+
+AUTH_USER_MODEL = 'users.User'
