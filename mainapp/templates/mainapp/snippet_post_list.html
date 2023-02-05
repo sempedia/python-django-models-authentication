@@ -14,11 +14,11 @@
             <div class="card-text">
                 {{post.body|truncatewords:"30"}}
             </div>
-            {% comment %}
+            
             <div class="card-subtext">
                 {% include 'mainapp/snippet_tag_labels.html' with tags=post.tags.all %}
             </div>
-            {% endcomment %}
+            
           </div>
       </div>
     {% endfor %}

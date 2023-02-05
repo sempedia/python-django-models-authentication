@@ -17,11 +17,11 @@
         <h1 class="post-title py-2">{{object.title}}</h1>
         <h4 class="post-subtitle"><a href="{{object.author.get_absolute_url}}" class="">{{object.author.username}}</a></h4>
         <h4 class="post-subtitle">{{object.postdate}}</h4>
-        {% comment %}
+        
         <div class="tags">
         {% include 'mainapp/snippet_tag_labels.html' with tags=object.tags.all %}  
         </div>
-        {% endcomment %}
+        
     </div><!-- /.col-lg-8 -->
   </div>
   <div class="row py-3">
