@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="tests.UsersTestCase-20230205202927" tests="10" file="tests.py" time="0.047" timestamp="2023-02-05T20:29:27" failures="10" errors="0" skipped="0">
+		<testcase classname="tests.UsersTestCase" name="test_task10_make_migrations" time="0.000" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="179">
+			<failure type="AssertionError" message="Did you use `manage.py makemigrations` to create the `users` migrations file? Don't forget to `add` it to the git repo."><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 181, in test_task10_make_migrations
+    self.assertTrue(os.path.isdir('users/migrations/'), msg=msg)
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you use `manage.py makemigrations` to create the `users` migrations file? Don't forget to `add` it to the git repo.
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task1_createapp" time="0.016" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="7">
+			<failure type="AssertionError" message="Did you use `manage.py createapp` to start the `users` app?"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 9, in test_task1_createapp
+    self.assertTrue(os.path.isdir('users'), msg=msg)
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you use `manage.py createapp` to start the `users` app?
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task2_add_settings" time="0.000" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="15">
+			<failure type="AssertionError" message="Check if users app is in INSTALLED_APPS"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 16, in test_task2_add_settings
+    self.assertTrue('users' in settings.INSTALLED_APPS, msg="Check if users app is in INSTALLED_APPS")
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Check if users app is in INSTALLED_APPS
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task3_add_template" time="0.000" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="18">
+			<failure type="AssertionError" message="Did you create the `templates` directory in `users`?"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 19, in test_task3_add_template
+    self.assertTrue(os.path.isdir('users/templates'), msg="Did you create the `templates` directory in `users`?")
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you create the `templates` directory in `users`?
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task4_create_model" time="0.016" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="22">
+			<failure type="AssertionError" message="Did you import `AbstractUser`?"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 36, in test_task4_create_model
+    self.assertTrue(import_found, msg="Did you import `AbstractUser`?")
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you import `AbstractUser`?
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task5_register_admin" time="0.000" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="40">
+			<failure type="AssertionError" message="Did you import `UserAdmin`?"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 69, in test_task5_register_admin
+    self.assertTrue(import_user_admin_found, msg="Did you import `UserAdmin`?")
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you import `UserAdmin`?
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task6_add_settings" time="0.000" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="73">
+			<failure type="AssertionError" message="'/accounts/login/' != 'login'
+- /accounts/login/
++ login
+ : Check if you set `LOGIN_URL` in `settings.py`."><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 74, in test_task6_add_settings
+    self.assertEqual(settings.LOGIN_URL, 'login', msg="Check if you set `LOGIN_URL` in `settings.py`.")
+AssertionError: '/accounts/login/' != 'login'
+- /accounts/login/
++ login
+ : Check if you set `LOGIN_URL` in `settings.py`.
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task7_setup_urls" time="0.016" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="78">
+			<failure type="AssertionError" message="Did you import `auth_views`?"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 107, in test_task7_setup_urls
+    self.assertTrue(auth_views_import_found, 'Did you import `auth_views`?')
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you import `auth_views`?
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task8_redirect_routes" time="0.000" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="143">
+			<failure type="AssertionError" message="Did you `include` the users project URLS? in `blogproj/urls.py`?"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 167, in test_task8_redirect_routes
+    self.assertTrue(users_path_found,  "Did you `include` the users project URLS? in `blogproj/urls.py`?")
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: Did you `include` the users project URLS? in `blogproj/urls.py`?
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="tests.UsersTestCase" name="test_task9_update_site_templates" time="0.000" timestamp="2023-02-05T20:29:27" file="module2\tests.py" line="169">
+			<failure type="AssertionError" message="There is still a `{% comment %}` tag in `templates/base.html`"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\Tibi\python-django-models-authentication\module2\tests.py", line 176, in test_task9_update_site_templates
+    self.assertTrue(not comment_found, msg="There is still a `{% comment %}` tag in `" + filename + "`")
+  File "C:\Users\Tibi\python-django-models-authentication\support\SimplerTestCase.py", line 12, in assertTrue
+    self.fail(msg or (str(expr) + "is not True"))
+AssertionError: There is still a `{% comment %}` tag in `templates/base.html`
+]]></failure>
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+	</testsuite>
+</testsuites>
